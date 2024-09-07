@@ -1,1 +1,18 @@
 * Problem 1
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
+3,5,6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+** Issues to Solve
+*** What is a number square?
+A number square is a collection of multiples of the number N laid out in an NxN
+grid.
+*** How do I make a number square?
+The multiples of N are laid out such that, for a given row, a number is output
+as determined by the following formula:
+
+| (N*1)+0*10 | N*2... | N*3... |
+| (N*1)+1*10 | N*2... | N*3... |
+| (N*1)+2*10 | N*2... | N*3... |
+*** How do I calculate the sum of a number square?
